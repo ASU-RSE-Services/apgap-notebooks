@@ -1,8 +1,4 @@
 # Default-deny: nothing is tracked unless explicitly allowed below.
-# Protects against accidentally committing scoping docs, comms drafts,
-# Claude memory, runtime artifacts, backup folders, .tmp files, and
-# anything else that lives in the project tree but isn't part of the
-# apgap-notebooks deliverable.
 *
 
 # Allow this .gitignore itself
@@ -11,7 +7,7 @@
 # Allow the repo README
 !README.md
 
-# Allow the notebooks/ directory and the five Phase 1 deliverables
+# Allow the notebooks/ directory and the five notebooks
 !notebooks/
 notebooks/*
 !notebooks/01-getting-started.ipynb
