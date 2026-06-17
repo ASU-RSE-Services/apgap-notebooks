@@ -24,7 +24,7 @@ Notebooks 02 and 03 auto-detect your project's analytical-dataset bucket. Overri
 
 ## Requirements
 
-Designed for the Vertex AI Workbench managed JupyterLab environment (Python 3.10, `(base)` conda env). Notebooks install everything else they need:
+Designed for the Vertex AI Workbench managed JupyterLab environment (Python 3.10, with either `conda` or `micromamba` on the image — the install cells detect whichever is present). Notebooks install everything else they need:
 
 - Nextflow 23.10 LTS + JDK 17 (notebook 03)
 - `sra-tools` and Biopython (notebook 04)
