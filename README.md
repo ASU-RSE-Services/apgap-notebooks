@@ -16,6 +16,8 @@ Template Jupyter notebooks for the Arizona Pathogen Genomics Analytics Platform 
 
 Open each notebook in your Vertex AI Workbench instance and run **Kernel → Restart & Run All**. Notebooks 01–04 run top-to-bottom; notebook 05 is reference material.
 
+When JupyterLab prompts "Select Kernel" on first open, pick **`Python 3 (ipykernel) (Local)`** (the first option under "Start python Kernel"). The PyTorch and TensorFlow kernels are missing libraries the notebooks need and will fail at the first GCS read with `ModuleNotFoundError`.
+
 Notebooks 02 and 03 auto-detect your project's analytical-dataset bucket. Override `DATASET_URI` in the parameter cell to point at a different dataset.
 
 ## Requirements
