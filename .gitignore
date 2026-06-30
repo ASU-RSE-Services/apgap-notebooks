@@ -7,7 +7,7 @@
 # Allow the repo README
 !README.md
 
-# Allow the notebooks/ directory and the five notebooks
+# Allow the notebooks/ directory and the deliverable notebooks
 !notebooks/
 notebooks/*
 !notebooks/01-getting-started.ipynb
@@ -15,3 +15,4 @@ notebooks/*
 !notebooks/03-launch-a-pipeline.ipynb
 !notebooks/04-download-from-public-repos.ipynb
 !notebooks/05-reference.ipynb
+!notebooks/06-launch-tostadas.ipynb
