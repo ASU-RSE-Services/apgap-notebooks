@@ -38,4 +38,4 @@ Versions are pinned because newer Nextflow rejects `nf-core/viralrecon` 2.6.0's 
 
 ## Reporting issues
 
-Open an [issue](https://github.com/ASU-RSE-Services/apgap-notebooks/issues) with the notebook number, the cell number, and the error message.
+Open an [issue](https://github.com/azpathogens/apgap-notebooks/issues) with the notebook number, the cell number, and the error message.
